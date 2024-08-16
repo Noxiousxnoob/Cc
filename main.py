@@ -9,8 +9,8 @@ from keep_alive import keep_alive
 keep_alive()
 
 
-BOT_API_KEY = '7168141473:AAG9wHuKNK-jTkIyPSsdgKuKXLTxuzJ8sjY'
-OWNER_ID = 1984468312
+BOT_API_KEY = '7429613071:AAHNzl3EzziPvV_GZydW3t9QrQ_mvFb0L2s'
+OWNER_ID = 5154912723
 
 
 bot = telebot.TeleBot(BOT_API_KEY)
@@ -39,7 +39,7 @@ def save_premium_users(premium_users):
             file.write(f'{user_id},{expiry_date.strftime("%Y-%m-%d")}\n')
 
 premium_users = load_premium_users()
-PREMIUM_GROUP_ID = -1001971738412
+PREMIUM_GROUP_ID = -1002146023033
 
 async def find_between(data, first, last):
     try:
