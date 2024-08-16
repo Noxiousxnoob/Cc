@@ -9,7 +9,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 
-BOT_API_KEY = '7429613071:AAHNzl3EzziPvV_GZydW3t9QrQ_mvFb0L2s'
+BOT_API_KEY = '7429613071:AAG6SeGN_DxgdYI3iCe2e8RNQTYNyJ4eOLQ'
 OWNER_ID = 5154912723
 
 
@@ -514,7 +514,7 @@ def send_welcome(message):
 2. **Upload a .txt file** - Upload a text file with CC combos to start checking.
 3. **/cmd or /cmds** - More Commands Info
 
-💡 *Note:* Only authorized users can access the bot. Contact @ZodMadara for authorization.
+💡 *Note:* Only authorized users can access the bot. Contact @NoxiousXpro for authorization.
 
 🔒 **Stay secure and happy checking!** 🔒
         """
@@ -538,7 +538,7 @@ def send_commands(message):
 🔹 */resume* - Resume the paused checking process.
 🔹 *Upload a .txt file* - Upload a text file with CC combos to start checking.
 
-💡 *Note:* Only authorized users can access the bot. Contact @ZodMadara for authorization.
+💡 *Note:* Only authorized users can access the bot. Contact @NoxiousXpro for authorization.
     """
     
     bot.send_message(message.chat.id, commands_text, parse_mode="Markdown")
@@ -883,7 +883,7 @@ async def _handle_docs(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@ZodMadara** for authorization.
+You are not authorized to use this bot. Please contact **@NoxiousXpro** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
