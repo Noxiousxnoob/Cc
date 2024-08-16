@@ -596,7 +596,7 @@ async def _check_cc(message):
                 edit_check_message = f"""
 🔍 **Checking:** `{current_cc}`
 🚪 **Gate:** **Braintree Auth**
-👨‍💻 **Developer:** **@ZodMadara**
+👨‍💻 **Developer:** **@NoxiousXpro**
                 """
 
                 bot.edit_message_text(edit_check_message, message.chat.id, msg.message_id, reply_markup=keyboard, parse_mode="Markdown")
@@ -610,7 +610,7 @@ async def _check_cc(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @ZodMadara
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @NoxBots
     """,
     parse_mode="Markdown"
 )
@@ -621,7 +621,7 @@ async def _check_cc(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @ZodMadara
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @NoxBots
     """,
     parse_mode="Markdown"
 )
@@ -831,7 +831,7 @@ async def _handle_docs(message):
                 edit_check_message = f"""
 🔍 **Checking:** `{current_cc}`
 🚪 **Gate:** **Braintree Auth**
-👨‍💻 **Developer:** **@ZodMadara**
+👨‍💻 **Developer:** **@NoxBots**
                 """
 
                 bot.edit_message_text(edit_check_message, message.chat.id, msg.message_id, reply_markup=keyboard, parse_mode="Markdown")
@@ -845,7 +845,7 @@ async def _handle_docs(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @ZodMadara
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @NoxBots
     """,
     parse_mode="Markdown"
 )
@@ -856,7 +856,7 @@ async def _handle_docs(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @ZodMadara
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @NoxBots
     """,
     parse_mode="Markdown"
 )
